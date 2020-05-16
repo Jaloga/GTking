@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.balandro" name="Balandro Repo" version="1.0.3" provider-name="Balandro">
+<addon id="repository.balandro" name="[COLOR orange]Balandro[/COLOR] Repo" version="1.0.3" provider-name="Balandro">
 	<requires>
 		<import addon="xbmc.addon" version="12.0.0"/>
 	</requires>

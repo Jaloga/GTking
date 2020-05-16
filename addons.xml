@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="repository.alfa-addon" name="[COLOR red]Alfa-Addon[/COLOR] Repo" version="1.0.5" provider-name="Alfa Addon">
+<addon id="repository.alfa-addon" name="[COLOR yellow]Alfa-Addon[/COLOR] Repo" version="1.0.5" provider-name="Alfa Addon">
     <requires>
         <import addon="xbmc.addon" version="12.0.0"/>
     </requires>
@@ -31,7 +31,7 @@
 	</extension>
 </addon>
 
-<addon id="repository.balandro" name="Balandro Repo" version="1.0.3" provider-name="Balandro">
+<addon id="repository.balandro" name="[COLOR orange]Balandro[/COLOR] Repo" version="1.0.3" provider-name="Balandro">
 	<requires>
 		<import addon="xbmc.addon" version="12.0.0"/>
 	</requires>
@@ -65,7 +65,7 @@
        </extension>
 </addon>
 
-<addon id="script.i.cristalazul" name="Instalador [COLOR aqua]CRISTAL AZUL[/COLOR]" version="1.4" provider-name="www.stva.ga">
+<addon id="script.i.cristalazul" name="Instalador [COLOR aqua]CRISTAL AZUL[/COLOR]" version="1.4" provider-name="beelinkgtking2">
     <requires>
         <import addon="xbmc.python" version="2.25.0"/>
 
@@ -128,7 +128,7 @@
 
 <addon id="script.luar"
   version="0.3.5"
-  name="Luar"
+  name="[COLOR blueviolet]Luar[/COLOR]"
   provider-name="The Dreamers">
   <requires>
     <import addon="xbmc.python" version="2.25.0"/>
@@ -174,7 +174,7 @@
         <res width="1920" height="1080" aspect="16:9" default="true" folder="1080i"/>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary lang="en">Mod GKING de AuraMod, Minimalista, Personalizable, Multiple Widgets.</summary>
+        <summary lang="en">Mod [COLOR FF1e90ff]GTKING[/COLOR] de AuraMod, Minimalista, Personalizable, Multiple Widgets.</summary>
         <description lang="es">Mod [COLOR FF1e90ff]GTKING[/COLOR] de AuraMod.
 		Esta versión de Aura está basada para todos los usuarios. Gracias al grupo de [COLOR green]BEELINK/GT-KING / GTKING PRO/GT1[/COLOR]</description>
 		<news>Nuevos cambios:

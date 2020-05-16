@@ -15,7 +15,7 @@
         <res width="1920" height="1080" aspect="16:9" default="true" folder="1080i"/>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary lang="en">Mod GKING de AuraMod, Minimalista, Personalizable, Multiple Widgets.</summary>
+        <summary lang="en">Mod [COLOR FF1e90ff]GTKING[/COLOR] de AuraMod, Minimalista, Personalizable, Multiple Widgets.</summary>
         <description lang="es">Mod [COLOR FF1e90ff]GTKING[/COLOR] de AuraMod. 
 		Esta versión de Aura está basada para todos los usuarios. Gracias al grupo de [COLOR green]BEELINK/GT-KING / GTKING PRO/GT1[/COLOR]</description>
 		<news>Nuevos cambios:
