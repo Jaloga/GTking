@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+<addon id="repository.alfa-addon" name="[COLOR red]Alfa-Addon[/COLOR] Repo" version="1.0.5" provider-name="Alfa Addon">
+    <requires>
+        <import addon="xbmc.addon" version="12.0.0"/>
+    </requires>
+    <extension point="xbmc.addon.repository" name="Alfa-Addon Repo">
+        <info>https://bitbucket.org/alfa_addon/alfa-repo/raw/master/addons.xml</info>
+        <checksum>https://bitbucket.org/alfa_addon/alfa-repo/raw/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://bitbucket.org/alfa_addon/alfa-repo/raw/master/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Repositorio para Alfa-Addon</summary>
+        <description></description>
+        <disclaimer>The owners and submitters to this repository do not host or distribute any of the content displayed by these addons nor do they have any affiliation with the content providers.</disclaimer>
+        <platform>all</platform>
+    </extension>
+</addon>
+
 <addon id="repository.auramod" version="1.0.5" name="Auramod Repository" provider-name="skyfsza">
 
 	<extension point="xbmc.addon.repository" name="Auramod BETA repository">
@@ -12,6 +29,26 @@
 		<description lang="en">Kodi repository for beta/test versions of the Auramod Skin. This repo is for test/beta versions of my work only</description>
 		<platform>all</platform>
 	</extension>
+</addon>
+
+<addon id="repository.balandro" name="Balandro Repo" version="1.0.3" provider-name="Balandro">
+	<requires>
+		<import addon="xbmc.addon" version="12.0.0"/>
+	</requires>
+
+    <extension point="xbmc.addon.repository" name="Balandro Repo">
+        <info>https://balandro.tk/repo/addons.xml</info>
+        <checksum>https://balandro.tk/repo/addons.xml.md5</checksum>
+        <datadir zip="true">https://balandro.tk/repo</datadir>
+    </extension>
+
+    <extension point="xbmc.addon.metadata">
+        <summary>Repositorio para Balandro</summary>
+        <description>Balandro es un navegador para webs con vídeos de películas y series.</description>
+        <disclaimer>The owners and submitters to this repository do not host or distribute any of the content displayed by these addons nor do they have any affiliation with the content providers.</disclaimer>
+        <platform>all</platform>
+    </extension>
+
 </addon>
 
 <addon id="repository.repogtking" name="GTKING [COLOR ff1e90ff]Repo[/COLOR]" version="1.2" provider-name="beelinkgtking2">
@@ -28,7 +65,7 @@
        </extension>
 </addon>
 
-<addon id="skin.auramodgtking" version="0.0.2" name="AuraMOD [COLOR FF1e90ff]GTKING[/COLOR]" provider-name="auramod,beelinkgtking2,jurialmunkey,Cartmandos,marduklev,marcelveldt">
+<addon id="skin.auramodgtking" version="0.0.2" name="AuraMOD [COLOR FF1e90ff]GTKING[/COLOR]" provider-name="auramod,beelinkgtking2">
     <requires>
         <import addon="xbmc.gui" version="5.14.0"/>
         <import addon="script.skin.helper.service" version="1.1.24"/>
@@ -46,8 +83,7 @@
     <extension point="xbmc.addon.metadata">
         <summary lang="en">Mod GKING de AuraMod, Minimalista, Personalizable, Multiple Widgets.</summary>
         <description lang="es">Mod [COLOR FF1e90ff]GTKING[/COLOR] de AuraMod.
-		Esta versión de Aura está basada para todos los usuarios. Gracias al grupo de [COLOR green]BEELINK/GT-KING / GTKING PRO/GT1[/COLOR]
-		[COLOR cyan]AuraMod by skyfsza[/COLOR]</description>
+		Esta versión de Aura está basada para todos los usuarios. Gracias al grupo de [COLOR green]BEELINK/GT-KING / GTKING PRO/GT1[/COLOR]</description>
 		<news>Nuevos cambios:
 
 		- Ajustes del wizard
