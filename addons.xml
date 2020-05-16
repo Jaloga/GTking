@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="repository.alfa-addon" name="[COLOR yellow]Alfa-Addon[/COLOR] Repo" version="1.0.5" provider-name="Alfa Addon">
+<addon id="repository.alfa-addon" name="[COLOR gold]Alfa-Addon[/COLOR] Repo" version="1.0.5" provider-name="Alfa Addon">
     <requires>
         <import addon="xbmc.addon" version="12.0.0"/>
     </requires>
@@ -17,7 +17,7 @@
     </extension>
 </addon>
 
-<addon id="repository.auramod" version="1.0.5" name="Auramod Repository" provider-name="skyfsza">
+<addon id="repository.auramod" version="1.0.5" name="[COLOR turquoise]Auramod[/COLOR] Repository" provider-name="skyfsza">
 
 	<extension point="xbmc.addon.repository" name="Auramod BETA repository">
 		<info compressed="false">https://raw.githubusercontent.com/skyfsza/repository.auramod/master/addons.xml</info>
@@ -51,8 +51,8 @@
 
 </addon>
 
-<addon id="repository.repogtking" name="GTKING [COLOR ff1e90ff]Repo[/COLOR]" version="1.2" provider-name="beelinkgtking2">
-       <extension point="xbmc.addon.repository" name="GTKING repo">
+<addon id="repository.repogtking" name="[COLOR ff1e90ff]GTKING[/COLOR] Repo" version="1.2" provider-name="beelinkgtking2">
+       <extension point="xbmc.addon.repository" name="[COLOR ff1e90ff]GTKING[/COLOR] Repo">
               <info>https://raw.githubusercontent.com/beelinkgtking2/Repo-GTking/master/addons.xml</info>
               <checksum>https://raw.githubusercontent.com/beelinkgtking2/Repo-GTking/master/addons.xml.md5</checksum>
               <datadir zip="true">https://raw.githubusercontent.com/beelinkgtking2/Repo-GTking/master/</datadir>
