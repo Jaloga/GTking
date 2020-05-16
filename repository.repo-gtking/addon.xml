@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.repo-gtking" name="GTKING [COLOR chartreuse3]Repo[/COLOR]" version="1.0" provider-name="beelinkgtking2">
+<addon id="repository.repo-gtking" name="GTKING [COLOR 1e90ff]Repo[/COLOR]" version="2.0" provider-name="beelinkgtking2">
     <extension point="xbmc.addon.repository" name="GTKING repo">
         <info>https://raw.githubusercontent.com/beelinkgtking2/Repo-GTking/master/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/beelinkgtking2/Repo-GTking/master/addons.xml.md5</checksum>

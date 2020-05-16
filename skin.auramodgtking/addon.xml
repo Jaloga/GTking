@@ -16,7 +16,7 @@
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary lang="en">Mod GKING de AuraMod, Minimalista, Personalizable, Multiple Widgets.</summary>
-        <description lang="es">Mod [COLOR DodgerBlue]GTKING[/COLOR] de AuraMod. 
+        <description lang="es">Mod [COLOR FF1e90ff]GTKING[/COLOR] de AuraMod. 
 		Aura es un skin altamente personalizable con múltiples widgets y menú vertical. Aura combina el minimalismo y los bordes redondeados de Arctic Zephyr con la elegante personalización de Horizon y Titan Bingie. [COLOR cyan]AuraMod by skyfsza[/COLOR]</description>
         <news>Nuevos cambios:
 		
