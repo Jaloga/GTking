@@ -96,7 +96,7 @@
 </addon>
 
 <addon id="script.limpiarkodi"
-       name="Limpia Tu Kodi"
+       name="[COLOR green]Limpia Tu Kodi[/COLOR]"
        version="2.0.6"
        provider-name="Catoal - Teco">
   <requires>
