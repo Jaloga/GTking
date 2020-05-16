@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.alfa-addon" name="[COLOR yellow]Alfa-Addon[/COLOR] Repo" version="1.0.5" provider-name="Alfa Addon">
+<addon id="repository.alfa-addon" name="[COLOR gold]Alfa-Addon[/COLOR] Repo" version="1.0.5" provider-name="Alfa Addon">
     <requires>
         <import addon="xbmc.addon" version="12.0.0"/>
     </requires>
