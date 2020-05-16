@@ -65,6 +65,99 @@
        </extension>
 </addon>
 
+<addon id="script.i.cristalazul" name="Instalador [COLOR aqua]CRISTAL AZUL[/COLOR]" version="1.4" provider-name="www.stva.ga">
+    <requires>
+        <import addon="xbmc.python" version="2.25.0"/>
+
+
+    </requires>
+    <extension point="xbmc.python.script" library="autoexec.py">
+        <provides>executable</provides>
+    </extension>
+	<extension point="xbmc.service" library="autoexec.py">
+	</extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Instalador CRISTAL AZUL instalara el addon cristal azul y todas sus dependencias.</summary>
+        <description lang="en_GB"></description>
+        <language></language>
+        <platform>all</platform>
+        <license>unlicense</license>
+        <forum></forum>
+        <website></website>
+        <email></email>
+        <source></source>
+        <news></news>
+        <disclaimer></disclaimer>
+        <assets>
+            <icon>resources/icon.png</icon>
+            <fanart>resources/fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="script.limpiarkodi"
+       name="Limpia Tu Kodi"
+       version="2.0.6"
+       provider-name="Catoal - Teco">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.six" version="1.11.0"/>
+  </requires>
+     <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+    </extension>
+  <extension point="xbmc.service" library="service.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+  <extension point="xbmc.addon.repository" name="Maniac">
+      <info compressed="false">http://raw.github.com/Maniac2017/repository.Maniac/master/addons.xml</info>
+      <checksum>http://raw.github.com/Maniac2017/repository.Maniac/master/addons.xml.md5</checksum>
+      <datadir zip="true">http://raw.github.com/Maniac2017/repository.Maniac/master/repor/</datadir>
+  </extension>
+    <platform>all</platform>
+    <summary>Limpiar</summary>
+    <description>La herramienta para limpiar de una pasada su dispositivo.</description>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+      <screenshot>resources/screenshot000.jpg</screenshot>
+      <screenshot>resources/screenshot001.jpg</screenshot>
+      <screenshot>resources/screenshot002.jpg</screenshot>
+    </assets>
+  </extension>
+</addon>
+
+<addon id="script.luar"
+  version="0.3.5"
+  name="Luar"
+  provider-name="The Dreamers">
+  <requires>
+    <import addon="xbmc.python" version="2.25.0"/>
+    <import addon="script.module.six" version="1.11.0"/>
+    <import addon="script.module.requests"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.repository" name="Luar Repo">
+    <info>http://luar.xyz/repor/addons.xml</info>
+    <checksum>http://luar.xyz/repor/addons.xml.md5</checksum>
+    <datadir zip="true">http://luar.xyz/repor/</datadir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="es">Script instalador de complementos para Kodi.</summary>
+    <description lang="es">Selecciona, instala y disfruta.</description>
+    <disclaimer lang="es"></disclaimer>
+    <assets>
+      <icon>icon.gif</icon>
+      <fanart>fanart.jpg</fanart>
+      <screenshot>resources/screenshot000.jpg</screenshot>
+      <screenshot>resources/screenshot001.jpg</screenshot>
+      <screenshot>resources/screenshot002.jpg</screenshot>
+    </assets>
+  </extension>
+</addon>
+
 <addon id="skin.auramodgtking" version="0.0.2" name="AuraMOD [COLOR FF1e90ff]GTKING[/COLOR]" provider-name="auramod,beelinkgtking2">
     <requires>
         <import addon="xbmc.gui" version="5.14.0"/>
