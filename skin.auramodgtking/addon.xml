@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addon id="skin.auramodgtking" version="0.0.2" name="AuraMOD [COLOR FF1e90ff]GTKING[/COLOR]" provider-name="auramod,beelinkgtking2,jurialmunkey,Cartmandos,marduklev,marcelveldt">
+<addon id="skin.auramodgtking" version="0.0.2" name="AuraMOD [COLOR FF1e90ff]GTKING[/COLOR]" provider-name="auramod,beelinkgtking2">
     <requires>
         <import addon="xbmc.gui" version="5.14.0"/>
         <import addon="script.skin.helper.service" version="1.1.24"/>
@@ -17,8 +17,7 @@
     <extension point="xbmc.addon.metadata">
         <summary lang="en">Mod GKING de AuraMod, Minimalista, Personalizable, Multiple Widgets.</summary>
         <description lang="es">Mod [COLOR FF1e90ff]GTKING[/COLOR] de AuraMod. 
-		Esta versión de Aura está basada para todos los usuarios. Gracias al grupo de [COLOR green]BEELINK/GT-KING / GTKING PRO/GT1[/COLOR]
-		[COLOR cyan]AuraMod by skyfsza[/COLOR]</description>
+		Esta versión de Aura está basada para todos los usuarios. Gracias al grupo de [COLOR green]BEELINK/GT-KING / GTKING PRO/GT1[/COLOR]</description>
 		<news>Nuevos cambios:
 		
 		- Ajustes del wizard
