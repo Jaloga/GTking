@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+<addon id="plugin.program.GTking" name="[COLOR 9400d3]GTKING[/COLOR]" version="0.0.2" provider-name="Gtking, Manu,Josa,David,Sugea">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Wizard</summary>
+    <description lang="en">Addon instalador para GTKING</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="repository.alfa-addon" name="[COLOR gold]Alfa-Addon[/COLOR] Repo" version="1.0.5" provider-name="Alfa Addon">
     <requires>
         <import addon="xbmc.addon" version="12.0.0"/>
